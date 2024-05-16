@@ -41,6 +41,16 @@ button {
   position: relative;
 }
 
+.hero-bg {
+  background-size: cover;
+}
+
+@media (max-width: 600px) {
+  .hero-bg {
+    background-size: auto 100svh;
+  }
+}
+
 .hero-text {
   position: relative;
   height: 100vh;

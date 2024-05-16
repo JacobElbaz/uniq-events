@@ -32,13 +32,13 @@ function Hero() {
         </button>
       </div>
       <div
+      className="hero-bg"
         style={{
           position: "fixed",
           inset: 0,
           zIndex: -1,
           backgroundPosition: "bottom",
           backgroundImage: `url(${heroBg.src})`,
-          backgroundSize: "cover",
         }}
       />
     </div>
