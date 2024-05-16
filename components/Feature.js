@@ -9,7 +9,7 @@ function Feature({inverted, header, description, image}) {
             <p>{description}</p>
         </div>
         <div className='feature-image'>
-            <Image src={image} alt={`feature-${header}`} />
+            <Image src={image} alt={`feature-${header}`} width={400} />
         </div>
     </div>
   )
