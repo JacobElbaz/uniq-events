@@ -260,4 +260,9 @@ textarea {
     border: none;
     background-color: transparent;
   }
+
+  .feature-image {
+    min-width: none;
+    max-width: 90vw;
+  }
 }
