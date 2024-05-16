@@ -25,7 +25,7 @@ function Hero() {
         <button
           onClick={handleScrollTo}
           className="button"
-          style={{ color: "inherit" }}
+          style={{ color: "black" }}
         >
           Créer mon site
         </button>
