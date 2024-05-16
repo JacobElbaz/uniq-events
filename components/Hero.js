@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import heroBg from "@/assets/images/hero.jpg";
 
 function Hero() {
   const handleScrollTo = (e) => {
@@ -30,6 +31,16 @@ function Hero() {
           Créer mon site
         </button>
       </div>
+      <div
+        style={{
+          position: "fixed",
+          inset: 0,
+          zIndex: -1,
+          backgroundPosition: "bottom",
+          backgroundImage: `url(${heroBg.src})`,
+          backgroundSize: "cover",
+        }}
+      />
     </div>
   );
 }

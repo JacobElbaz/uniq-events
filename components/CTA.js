@@ -10,6 +10,7 @@ function CTA() {
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
+        backgroundColor: 'white'
       }}
     >
       <h2 style={{ maxWidth: "883px" }}>
