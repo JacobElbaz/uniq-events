@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React from "react";
 
 function Hero() {
@@ -22,7 +22,11 @@ function Hero() {
           Faites de votre mariage un événement inoubliable avec notre solution
           de sites web personnalisés.
         </p>
-        <button onClick={handleScrollTo} className="button">
+        <button
+          onClick={handleScrollTo}
+          className="button"
+          style={{ color: "inherit" }}
+        >
           Créer mon site
         </button>
       </div>

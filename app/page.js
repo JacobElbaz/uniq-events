@@ -6,7 +6,7 @@ import calendar from "../assets/images/calendar1.jpg";
 import faireParts from "@/assets/images/faire-parts.png";
 import rsvp from "@/assets/images/rsvp.png";
 import ReviewsContainer from "@/components/ReviewsContainer";
-import Link from "next/link";
+import CTA from "@/components/CTA";
 
 export default function Home() {
   return (
@@ -54,20 +54,7 @@ export default function Home() {
         image={img}
       />
       <ReviewsContainer />
-      <div style={{ padding: "5rem 1rem" }}>
-        <h2 style={{ maxWidth: "883px" }}>
-          Prêt à faire de votre mariage un événement unique ? Commencez dès
-          aujourd'hui avec Uniq Events et créez votre site de mariage en un seul
-          clic !
-        </h2>
-        <Link
-          href={"/nos-offres"}
-          style={{ textDecoration: "none", color: "inherit" }}
-          className="button"
-        >
-          Voir nos offres
-        </Link>
-      </div>
+      <CTA/>
     </main>
   );
 }

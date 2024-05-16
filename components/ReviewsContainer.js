@@ -43,33 +43,33 @@ function ReviewsContainer() {
     <div className="reviews-container">
       <Slider {...settings}>
         <Review
-          name={"Salome & Elie"}
+          name={"Rebeccah & Moti"}
           review={
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nulla laudantium voluptas?"
+            "Un grand merci pour cette prestation exceptionnelle ! La création du site a été rapide et simple, et le résultat final a vraiment reflété notre style. Nos invités ont adoré."
           }
         />
         <Review
-          name={"Salome & Elie"}
+          name={"Shany & Ran"}
           review={
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nulla laudantium voluptas?"
+            "Nous ne pourrions pas être plus satisfaits. Le site a été un moyen merveilleux de partager les détails de notre mariage avec nos proches. Tout était parfait !"
           }
         />
         <Review
-          name={"Salome & Elie"}
+          name={"Itay & Ortal"}
           review={
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nulla laudantium voluptas?"
+            "Le site a été un outil fantastique pour organiser notre mariage. De plus les photos en arrière-plan ont ajouté une touche personnelle et élégante."
           }
         />
         <Review
-          name={"Salome & Elie"}
+          name={"Sarah & Dan"}
           review={
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nulla laudantium voluptas?"
+            "Le design élégant et les fonctionnalités intuitives ont vraiment rendu la préparation de notre mariage plus agréable. Le compte à rebours jusqu'au jour J était une touche parfaite !"
           }
         />
         <Review
-          name={"Salome & Elie"}
+          name={"Salome & Ben"}
           review={
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nulla laudantium voluptas?"
+            "Outre la qualité exceptionnelle du site, nous tenons à souligner le relationnel avec les prestataires. L'équipe a été incroyablement réactive et à l'écoute de nos besoins, rendant toute l'expérience encore plus agréable."
           }
         />
       </Slider>
