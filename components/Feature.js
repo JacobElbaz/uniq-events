@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-function Feature({inverted, header, description, image}) {
+function Feature({inverted, header, description, image, height}) {
   return (
     <div className='feature' style={inverted ? {flexDirection: 'row-reverse'} : {}}>
         <div className='feature-text'>
@@ -9,7 +9,7 @@ function Feature({inverted, header, description, image}) {
             <p>{description}</p>
         </div>
         <div className='feature-image'>
-            <Image src={image} alt={`feature-${header}`} width={400} />
+            <Image src={image} alt={`feature-${header}`} height={height}/>
         </div>
     </div>
   )
