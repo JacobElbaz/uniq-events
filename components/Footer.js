@@ -64,7 +64,7 @@ function Footer() {
           </li>
         </ul>
       </div>
-      <div className="footer-contact">
+      <div className="footer-contact" id="contact">
         <h5>Contact</h5>
           <a href="tel:+33782786228"><Image src={tel} alt="tel" height={16} /> 0782786228</a>
           <a href="mailto:contact@uniq-web.dev"><Image src={email} alt="email" height={16} /> contact@uniq-web.dev</a>

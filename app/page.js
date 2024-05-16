@@ -2,7 +2,7 @@ import Feature from "@/components/Feature";
 import Hero from "@/components/Hero";
 import img from "../assets/images/hero.jpg";
 import ReviewsContainer from "@/components/ReviewsContainer";
-import Footer from "@/components/Footer";
+import Link from "next/link";
 
 
 export default function Home() {
@@ -17,7 +17,7 @@ export default function Home() {
       <ReviewsContainer/>
       <div style={{padding: '5rem 1rem'}}>
         <h2 style={{maxWidth: '883px'}}>Prêt à faire de votre mariage un événement unique ? Commencez dès aujourd'hui avec Uniq Events et créez votre site de mariage en un seul clic !</h2>
-        <button className="button">Voir nos offres</button>
+        <Link href={'/nos-offres'} style={{textDecoration: 'none', color: 'inherit'}} className="button">Voir nos offres</Link>
       </div>
     </main>
   );
