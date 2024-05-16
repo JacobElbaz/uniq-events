@@ -72,8 +72,10 @@ button {
 }
 
 .feature-image {
+  position: relative;
   overflow: hidden;
-  height: 300px;
+  min-width: 380px;
+  min-height: 300px;
 }
 
 .reviews-container {

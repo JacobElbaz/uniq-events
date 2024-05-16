@@ -9,7 +9,7 @@ function Feature({inverted, header, description, image, height}) {
             <p>{description}</p>
         </div>
         <div className='feature-image'>
-            <Image src={image} alt={`feature-${header}`} height={height}/>
+            <Image fill src={image} alt={`feature-${header}`} style={{objectFit: 'contain'}}/>
         </div>
     </div>
   )
