@@ -64,6 +64,7 @@ button {
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 1rem;
+  overflow-x: hidden;
 }
 
 .feature-text {
