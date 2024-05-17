@@ -7,6 +7,7 @@ import email from "@/assets/icons/enveloppe.png";
 import Image from "next/image";
 import emailjs from "@emailjs/browser";
 import toast, { Toaster } from 'react-hot-toast';
+import Link from "next/link";
 
 function Footer() {
   const [formData, setFormData] = React.useState({
@@ -43,24 +44,28 @@ function Footer() {
       );
   };
   return (
+    <>
     <div className="footer">
       <div className="footer-links">
         <h5>Liens du site</h5>
         <ul>
           <li>
-            <a href="">Faire-part personnalisé</a>
+            <a href="#faire-part">Faire-part personnalisé</a>
           </li>
           <li>
-            <a href="">Liens pratiques</a>
+            <a href="#liens">Liens pratiques</a>
           </li>
           <li>
-            <a href="">Formulaire de reponse</a>
+            <a href="#formulaire">Formulaire de réponse</a>
           </li>
           <li>
-            <a href="">Integration calendrier</a>
+            <a href="#intégration">Intégration calendrier</a>
           </li>
           <li>
-            <a href="">Espace prive pour les maries</a>
+            <a href="#espace">Espace privé pour les mariés</a>
+          </li>
+          <li>
+            <a href="/nos-offres">Nos offres</a>
           </li>
         </ul>
       </div>
@@ -104,6 +109,12 @@ function Footer() {
       </form>
       <Toaster/>
     </div>
+    <div className="footer">
+      <Link href={'/'} style={{fontSize: 'small'}}>Mentions légales</Link>
+      <Link href={'/'} style={{fontSize: 'small'}} >Conditions d'utilisation</Link>
+      <p style={{fontSize: 'small'}}>Copyright 2024 - Uniq Web - Tous droits reservés</p>
+    </div>
+    </>
   );
 }
 

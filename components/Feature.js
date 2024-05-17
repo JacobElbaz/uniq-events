@@ -3,7 +3,7 @@ import React from 'react'
 
 function Feature({inverted, header, description, image, height}) {
   return (
-    <div className='feature' style={inverted ? {flexDirection: 'row-reverse'} : {}}>
+    <div className='feature' id={header.split(' ')[0].toLowerCase()} style={inverted ? {flexDirection: 'row-reverse'} : {}}>
         <div className='feature-text'>
             <h2>{header}</h2>
             <p>{description}</p>
