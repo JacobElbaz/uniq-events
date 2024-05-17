@@ -7,6 +7,7 @@ import faireParts from "@/assets/images/faire-parts.png";
 import rsvp from "@/assets/images/rsvp.png";
 import ReviewsContainer from "@/components/ReviewsContainer";
 import CTA from "@/components/CTA";
+import espace from '@/assets/images/espace.png';
 
 export default function Home() {
   return (
@@ -51,7 +52,7 @@ export default function Home() {
         description={
           "Profitez d'un espace exclusif pour les mariés, où vous pourrez suivre les réponses de vos invités et planifier votre grand jour en toute tranquillité."
         }
-        image={img}
+        image={espace}
       />
       <ReviewsContainer />
       <CTA/>
