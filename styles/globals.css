@@ -68,13 +68,27 @@ button {
   font-size: 20px;
 }
 
+.features-container {
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2rem;
+  padding: 1rem;
+}
+
+@media (max-width: 600px) {
+  .features-container{
+    grid-template-columns: 1fr;
+  }
+}
+
 .feature {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  flex-direction: column;
   padding: 1rem;
   overflow-x: hidden;
-  background-color: white;
+  align-items: center;
 }
 
 .feature-text {
@@ -87,6 +101,7 @@ button {
   overflow: hidden;
   min-width: 380px;
   min-height: 300px;
+  width: 100%;
 }
 
 .reviews-container {

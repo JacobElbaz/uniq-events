@@ -13,6 +13,9 @@ export default function Home() {
   return (
     <main>
       <Hero />
+      <div className="features-container">
+
+      
       <Feature
         header={"Faire-part personnalisé de l'événement :"}
         description={
@@ -53,7 +56,7 @@ export default function Home() {
           "Profitez d'un espace exclusif pour les mariés, où vous pourrez suivre les réponses de vos invités et planifier votre grand jour en toute tranquillité."
         }
         image={espace}
-      />
+      /></div>
       <ReviewsContainer />
       <CTA/>
     </main>
