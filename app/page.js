@@ -10,6 +10,7 @@ import lien from "@/assets/images/lien.png";
 import Image from "next/image";
 import Link from "next/link";
 import plans from '@/assets/images/plans.png';
+import offer from '@/assets/images/offer.png';
 
 export default function Home() {
   return (
@@ -58,7 +59,7 @@ export default function Home() {
         <div>
           <div className="CTA-offers">
             <div style={{minWidth: '300px', minHeight: '300px', position: 'relative'}}>
-              <Image fill src={plans} style={{objectFit: 'contain'}}></Image>
+              <Image fill src={offer} style={{objectFit: 'contain'}}></Image>
             </div>
             <h1>
               Decouvrez nos offres
