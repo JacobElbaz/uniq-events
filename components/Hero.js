@@ -1,5 +1,6 @@
-'use client'
+"use client";
 import React from "react";
+import heroBg from "@/assets/images/hero.jpg";
 
 function Hero() {
   const handleScrollTo = (e) => {
@@ -22,10 +23,24 @@ function Hero() {
           Faites de votre mariage un événement inoubliable avec notre solution
           de sites web personnalisés.
         </p>
-        <button onClick={handleScrollTo} className="button">
+        <button
+          onClick={handleScrollTo}
+          className="button"
+          style={{ color: "black" }}
+        >
           Créer mon site
         </button>
       </div>
+      <div
+      className="hero-bg"
+        style={{
+          position: "fixed",
+          inset: 0,
+          zIndex: -1,
+          backgroundPosition: "bottom",
+          backgroundImage: `url(${heroBg.src})`,
+        }}
+      />
     </div>
   );
 }

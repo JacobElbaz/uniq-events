@@ -15,22 +15,25 @@ function Prices() {
           name={"Basic"}
           price={120}
           services={[
-            "Landing page personnalisee",
-            "Liens pratiques (waze, google plan, whatsapp..)",
-            "Integration calendrier",
-            "Formulaire de reponse",
+            "Design personnalisé",
+            "Liens pratiques (Waze/Google Plan/Whatsapp)",
+            "Intégration calendrier",
+            "Formulaire de réponse",
+            "Réception des réponses par mail",
+            "1 événement"
           ]}
         />
         <Card
           name={"Premium"}
           price={220}
           services={[
-            "Landing page personnalisee",
-            "Liens pratiques (waze, google plan, whatsapp..)",
-            "Integration calendrier",
-            "Formulaire de reponse",
-            "Espace prive pour les maries",
-            "Jusqu'a 2 events",
+            "Design personnalisé",
+            "Liens pratiques (Waze/Google Plan/Whatsapp)",
+            "Intégration calendrier",
+            "Formulaire de réponse",
+            "Reception des réponses par mail et sur la plateforme",
+            "Espace privé pour les mariés (accés et gestion de la liste de réponses)",
+            "Jusqu'à 2 événements",
             "Musique de fond offerte",
           ]}
         />
@@ -38,21 +41,22 @@ function Prices() {
           name={"Pro"}
           price={290}
           services={[
-            "Landing page personnalisee",
-            "Liens pratiques (waze, google plan, whatsapp..)",
-            "Integration calendrier",
-            "Formulaire de reponse",
-            "Espace prive pour les maries",
-            "Nombre d'evenements illimites",
+            "Design personnalisé",
+            "Liens pratiques (Waze/Google Plan/Whatsapp)",
+            "Intégration calendrier",
+            "Formulaire de réponse",
+            "Reception des réponses par mail et sur la plateforme",
+            "Espace privé pour les mariés (accés et gestion de la liste de réponses)",
+            "Nombre d'événements illimités",
             "Musique de fond offerte",
-            "Creation de logo offerte",
+            "Création de logo offerte",
           ]}
         />
       </div>
       <div className="prices-text">
-        <h3>Options supplementaires:</h3>
+        <h3>Options supplémentaires:</h3>
         <ul>
-            <li>Creation de logo: +25€</li>
+            <li>Création de logo: +25€</li>
             <li>Ajout d'une musique de fond: +25€</li>
         </ul>
       </div>
