@@ -1,6 +1,6 @@
 import Feature from "@/components/Feature";
 import Hero from "@/components/Hero";
-import calendar from "../assets/images/calendar1.jpg";
+import calendar from "../assets/images/calendar.png";
 import faireParts from "@/assets/images/faire-parts.png";
 import rsvp from "@/assets/images/rsvp.png";
 import ReviewsContainer from "@/components/ReviewsContainer";
