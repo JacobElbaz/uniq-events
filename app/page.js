@@ -7,6 +7,9 @@ import ReviewsContainer from "@/components/ReviewsContainer";
 import CTA from "@/components/CTA";
 import espace from "@/assets/images/espace.png";
 import lien from "@/assets/images/lien.png";
+import Image from "next/image";
+import Link from "next/link";
+import plans from '@/assets/images/plans.png';
 
 export default function Home() {
   return (
@@ -52,6 +55,21 @@ export default function Home() {
           }
           image={espace}
         />
+        <div>
+          <div className="CTA-offers">
+            <div style={{minWidth: '300px', minHeight: '300px', position: 'relative'}}>
+              <Image fill src={plans} style={{objectFit: 'contain'}}></Image>
+            </div>
+            <h1>
+              Decouvrez nos offres
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+              perferendis consequatur unde cum expedita nam.
+            </p>
+            <Link href={"/nos-offres"}>Nos offres</Link>
+          </div>
+        </div>
       </div>
       <ReviewsContainer />
       <CTA />
