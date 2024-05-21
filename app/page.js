@@ -1,12 +1,12 @@
 import Feature from "@/components/Feature";
 import Hero from "@/components/Hero";
-import waze from "../assets/images/waze.jpg";
 import calendar from "../assets/images/calendar1.jpg";
 import faireParts from "@/assets/images/faire-parts.png";
 import rsvp from "@/assets/images/rsvp.png";
 import ReviewsContainer from "@/components/ReviewsContainer";
 import CTA from "@/components/CTA";
 import espace from "@/assets/images/espace.png";
+import lien from "@/assets/images/lien.png";
 
 export default function Home() {
   return (
@@ -33,7 +33,7 @@ export default function Home() {
           description={
             "Facilitez la vie de vos invités avec des liens directs vers WhatsApp pour les messages et Waze pour les itinéraires, afin qu'ils puissent rejoindre votre mariage en toute simplicité."
           }
-          image={waze}
+          image={lien}
         />
         <Feature
           height={500}
