@@ -68,6 +68,7 @@ export default function Home() {
                 <Image
                   fill
                   src={offer}
+                  alt="modeles"
                   style={{ objectFit: "contain" }}
                 ></Image>
               </div>

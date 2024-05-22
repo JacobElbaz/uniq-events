@@ -15,7 +15,7 @@ function Hero() {
   return (
     <div className="hero">
       <div className="hero-text">
-        <h1 className="text-focus-in">
+        <h1 className="text-focus-in" style={{color: '#FCD8D4'}}>
           La magie de votre mariage commence par une simple page web.
         </h1>
         <p className="text-focus-in" style={{animation: 'text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both'}}>Créez un site de mariage unique en un seul clic.</p>
