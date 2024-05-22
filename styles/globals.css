@@ -55,9 +55,14 @@ button {
   position: relative;
   height: 100vh;
   padding: 0 2rem;
-  background-color: #3232329d;
+  background-color: #3232325b;
   color: white;
   z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
 .button {
@@ -69,7 +74,8 @@ button {
 }
 
 .features-container {
-  background-color: white;
+  background-image: url('../assets/images/bg7.png');
+  background-size: cover;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -78,8 +84,9 @@ button {
 }
 
 @media (max-width: 600px) {
-  .features-container{
+  .features-container {
     grid-template-columns: 1fr;
+    background-image: url('../assets/images/bg5.png');
   }
 }
 
@@ -122,12 +129,32 @@ button {
   font-style: italic;
 }
 
+.custom-shape-divider-top-1716371668 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1716371668 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 32px;
+}
+
+.custom-shape-divider-top-1716371668 .shape-fill {
+  fill: #FFFFFF;
+}
+
 .footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   background-color: var(--color-light);
-  padding: 1rem;
+  padding: 5rem 1rem 1rem 1rem;
   gap: 1rem;
 }
 
@@ -273,13 +300,46 @@ textarea {
   color: transparent;
 }
 
-.CTA-offers{
+.CTA-offers {
   background-color: var(--primary-color);
   padding: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.text-focus-in {
+  -webkit-animation: text-focus-in .9s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  animation: text-focus-in .9s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
 }
 
 

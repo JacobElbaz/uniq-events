@@ -15,18 +15,18 @@ function Hero() {
   return (
     <div className="hero">
       <div className="hero-text">
-        <h1 style={{ paddingTop: "75px" }}>
+        <h1 className="text-focus-in">
           La magie de votre mariage commence par une simple page web.
         </h1>
-        <p>Créez un site de mariage unique en un seul clic.</p>
-        <p>
+        <p className="text-focus-in" style={{animation: 'text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both'}}>Créez un site de mariage unique en un seul clic.</p>
+        <p className="text-focus-in" style={{animation: 'text-focus-in 1.1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both'}}>
           Faites de votre mariage un événement inoubliable avec notre solution
           de sites web personnalisés.
         </p>
         <button
           onClick={handleScrollTo}
-          className="button"
-          style={{ color: "black" }}
+          className="button text-focus-in"
+          style={{ color: "#313131", marginTop: '1rem', animation: 'text-focus-in 1.2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both' }}
         >
           Créer mon site
         </button>
