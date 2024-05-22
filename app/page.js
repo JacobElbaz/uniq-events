@@ -9,7 +9,6 @@ import espace from "@/assets/images/espace.png";
 import lien from "@/assets/images/lien.png";
 import Image from "next/image";
 import Link from "next/link";
-import plans from "@/assets/images/plans.png";
 import offer from "@/assets/images/offer.png";
 
 export default function Home() {
@@ -72,7 +71,7 @@ export default function Home() {
                   style={{ objectFit: "contain" }}
                 ></Image>
               </div>
-              <h1>Découvrez nos dernières créations:</h1>
+              <h2>Découvrez nos dernières créations:</h2>
               <p>
                 Laissez-vous inspirer par notre collection de sites de mariage
                 élégants et personnalisés. Cliquez sur le bouton ci-dessous pour

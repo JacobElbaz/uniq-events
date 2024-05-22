@@ -3,6 +3,7 @@
   --secondary-color: #FDF6F0;
   --color-light: #F8E2CF;
   --color-dark: #F5C6AA;
+  --color-black-text: #313131;
 }
 
 body {
@@ -13,6 +14,7 @@ h1 {
   font-size: 35px;
   font-weight: 500;
   max-width: 582px;
+  color: var(--primary-color);
 }
 
 h2 {
@@ -81,6 +83,7 @@ button {
   grid-template-rows: repeat(2, 1fr);
   gap: 2rem;
   padding: 1rem;
+  color: #323232;
 }
 
 @media (max-width: 600px) {
